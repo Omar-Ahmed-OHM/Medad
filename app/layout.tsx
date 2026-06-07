@@ -29,7 +29,6 @@ export default function RootLayout({
   return (
     <html
       lang="ar"
-      dir="rtl"
       className={`${cairo.variable} ${amiri.variable} h-full antialiased`}
     >
       <body
