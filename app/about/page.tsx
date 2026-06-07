@@ -46,7 +46,7 @@ export default function AboutMedad() {
 
             <h3 className="text-xl sm:text-2xl font-serif font-black text-[#0b6b2e] mb-3 sm:mb-4">رؤيتنا</h3>
 
-            <p className="text-xs sm:text-sm md:text-base text-gray-650 leading-loose">
+            <p className="text-xs sm:text-sm md:text-base text-black leading-loose">
               أن نكون المرجع الرقمي الأول الموثوق للمسلم في الحديث الشريف وعلوم السُّنّة والأدعية المأثورة، عبر تقديم محتوى نقي وخالٍ من الشوائب مدعومًا بأحدث تقنيات العرض والتصفح.
             </p>
           </div>
@@ -60,7 +60,7 @@ export default function AboutMedad() {
           >
             <h3 className="text-xl sm:text-2xl font-serif font-black text-[#0b6b2e] mb-3 sm:mb-4">رسالتنا</h3>
 
-            <p className="text-xs sm:text-sm md:text-base text-gray-650 leading-loose">
+            <p className="text-xs sm:text-sm md:text-base text-black leading-loose">
               تسهيل الوصول للفوائد والجرعات الإيمانية اليومية، ونشر العلم النافع من خلال تبسيط شروح الأحاديث وتوفير عدادات ذكية تفاعلية للأذكار تعين المستخدم وتُحفزه على الذكر المستمر.
             </p>
           </div>
