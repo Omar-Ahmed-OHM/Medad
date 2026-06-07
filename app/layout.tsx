@@ -44,8 +44,8 @@ export default function RootLayout({
 
           <div className="flex justify-center pt-4">
             <Taps
-              labels={["الرئيسية", "الأحاديث", "عن مداد", "الأذكار"]}
-              routes={["/", "/hadith", "/about", "/azkar"]}
+              labels={['الاذكار','الأحاديث','عن مداد','الرئيسيه']}
+              routes={["/azkar", "/hadith", "/about", "/"]}
             />
           </div>
 

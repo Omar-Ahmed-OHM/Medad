@@ -15,7 +15,7 @@ export default function Home() {
           title="عَنْ مِدَاد" 
           description="تَعَرَّفْ عَلَى رُؤْيَتِنَا وَأَهْدَافِنَا فِي نَشْرِ العِلْمِ النَّافِعِ، وَكَيْفَ نَسْعَى لِتَقْدِيمِ المُحْتَوَى الإِسْلَامِيِّ بِأَفْضَلِ صُورَةٍ مُمكنَةٍ." 
           route="/about" 
-          src="/assets/medad.png" 
+          src="/assets/medadlogo.webp" 
           buttonText="تعرف علينا"
         />
         <Card 

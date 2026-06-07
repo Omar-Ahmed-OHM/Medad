@@ -15,20 +15,12 @@ const Card: React.FC<CardProps> = ({
         overflow-hidden
         rounded-[28px]
         p-6 md:p-8
-        shadow-[0_8px_30px_rgba(0,0,0,0.04)]
         border border-[#C5A85C]/20
         transition-all duration-500
-        hover:shadow-[0_15px_45px_rgba(0,0,0,0.07)]
-        bg-transparent
+        bg-gradient-to-r from-[#004c0d] via-[#0b5d1e] to-[#004c0d] shadow-[0_10px_30px_rgba(0,0,0,0.2)]
+        text-white
       "
-      style={{
-        backgroundImage: "url('/assets/masged.avif')", 
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "left top",
-        backgroundSize: "contain", 
-      }}
     >
-      {/* طبقة ناعمة لضمان سهولة القراءة (Soft overlay) */}
       <div className="absolute inset-0 bg-white/10 pointer-events-none"></div>
 
       <div className="relative flex flex-col md:flex-row-reverse items-center gap-6 md:gap-10 z-10">
@@ -54,7 +46,6 @@ const Card: React.FC<CardProps> = ({
                 hover:scale-105
               "
             />
-            {/* Subtle shine effect */}
             <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/20 to-transparent opacity-60"></div>
           </div>
         </div>
@@ -67,7 +58,7 @@ const Card: React.FC<CardProps> = ({
             text-[22px] md:text-[26px]
             font-serif
             font-bold
-            text-[#0f3d24]
+            text-white
             leading-snug
             mb-3
             tracking-tight
@@ -77,7 +68,8 @@ const Card: React.FC<CardProps> = ({
 
           {/* Description */}
           <p className="
-            text-gray-700
+            text-white
+            font-semibold
             text-[15px] md:text-[17px]
             leading-[1.9]
             mb-6
@@ -87,7 +79,6 @@ const Card: React.FC<CardProps> = ({
             {description}
           </p>
 
-          {/* CTA */}
           {route && (
             <Link
               href={route}
@@ -110,7 +101,7 @@ const Card: React.FC<CardProps> = ({
                 transition-all duration-300
               "
             >
-              عرض الحديث
+              {title}
               <span className="text-lg">←</span>
             </Link>
           )}
