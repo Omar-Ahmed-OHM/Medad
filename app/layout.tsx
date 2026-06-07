@@ -42,7 +42,7 @@ export default function RootLayout({
         <Provider>
           <Landing />
 
-          <div className="flex justify-center pt-4">
+          <div className="flex justify-center pt-4 pl-4 pr-4">
             <Taps
               labels={['الاذكار','الأحاديث','عن مداد','الرئيسيه']}
               routes={["/azkar", "/hadith", "/about", "/"]}
