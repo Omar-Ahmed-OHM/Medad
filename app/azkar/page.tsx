@@ -55,7 +55,7 @@ export default function Azkar() {
 
         <button
           onClick={() => setOpen(!open)}
-          className="border border-green-900 shadow-[0_10px_30px_rgba(0,0,0,0.2)] w-14 h-14 p-6 sm:w-12 sm:h-12 rounded-full flex items-center justify-center overflow-hidden bg-white/35"
+          className="border text-black border-green-900 shadow-[0_10px_30px_rgba(0,0,0,0.2)] w-14 h-14 p-6 sm:w-12 sm:h-12 rounded-full flex items-center justify-center overflow-hidden bg-white/35"
         >
           اختار أذكارك 
         </button>
