@@ -51,7 +51,7 @@ const AzkarCard: React.FC<AzkarCardProps> = ({
         <div className="flex items-center justify-between bg-[#ffffff] rounded-xl p-2 gap-2">
           
           <div className="flex gap-2 items-center">
-            <div className="w-14 sm:w-16 h-8 sm:h-9 rounded-lg bg-white/80 flex items-center justify-center text-sm">
+            <div className="w-14 sm:w-16 h-8 sm:h-9 rounded-lg bg-white/80 flex text-black items-center justify-center text-sm">
               {count}/{repeat}
             </div>
 
@@ -65,14 +65,14 @@ const AzkarCard: React.FC<AzkarCardProps> = ({
             </button>
           </div>
 
-          <span className="text-xs sm:text-sm font-medium">
+          <span className="text-xs sm:text-sm font-medium text-black">
             التكرار : {repeat}
           </span>
         </div>
       </div>
 
       <div className="relative p-2 sm:p-4">
-        <div className="bg-[#ffffff] rounded-xl text-center p-2 sm:p-3 text-sm sm:text-base">
+        <div className="bg-[#ffffff] text-black rounded-xl text-center p-2 sm:p-3 text-sm sm:text-base">
           فضل : {benefit}
         </div>
       </div>
