@@ -168,7 +168,7 @@ export default function All_Hadith() {
                     )}
                   </div>
 
-                  <div className="my-4 sm:my-6 bg-stone-50 rounded-xl sm:rounded-2xl p-4 sm:p-6">
+                  <div className="my-4 sm:my-6 bg-stone-50 text-black rounded-xl sm:rounded-2xl p-4 sm:p-6">
                     <p className="text-base sm:text-xl leading-loose text-center font-bold">
                       {hadith.text}
                     </p>
@@ -180,7 +180,7 @@ export default function All_Hadith() {
                         <h3 className="font-bold text-[#0b6b2e] mb-3 text-sm sm:text-base">
                           📖 شرح الحديث
                         </h3>
-                        <p className="text-xs sm:text-sm leading-7">
+                        <p className="text-xs sm:text-sm text-black leading-7">
                           {hadith.explanation}
                         </p>
                       </div>
@@ -191,7 +191,7 @@ export default function All_Hadith() {
                         <h3 className="font-bold text-[#0b6b2e] mb-3 text-sm sm:text-base">
                           💡 فوائد الحديث
                         </h3>
-                        <p className="text-xs sm:text-sm leading-7 whitespace-pre-line">
+                        <p className="text-xs sm:text-sm leading-7 text-black whitespace-pre-line">
                           {hadith.benefits}
                         </p>
                       </div>
@@ -204,10 +204,10 @@ export default function All_Hadith() {
           ) : (
             <div className="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-10 text-center shadow-lg mx-2 sm:mx-0">
               <div className="text-4xl sm:text-6xl mb-4">🔍</div>
-              <h3 className="text-lg sm:text-xl font-bold text-gray-600">
+              <h3 className="text-lg sm:text-xl font-bold text-black">
                 لا توجد نتائج مطابقة
               </h3>
-              <p className="text-gray-400 mt-2 text-sm sm:text-base">
+              <p className="text-black mt-2 text-sm sm:text-base">
                 جرب كلمات بحث أخرى
               </p>
             </div>
