@@ -1,6 +1,6 @@
 import axios from "axios";
 import { HadithResponse } from '../types/type';
-import { env_local } from "@/app/envioroment/enviroment";
+import { env_local, env_prod } from "@/app/envioroment/enviroment";
 import { search_hadith } from "@/app/endpoints/endpoint";
 
 export const getHadiths = async (
@@ -9,7 +9,7 @@ export const getHadiths = async (
   search: string
 ): Promise<HadithResponse> => {
   const { data } = await axios.get(
-    `${env_local}${search_hadith}`,
+    `${env_prod}${search_hadith}`,
     {
       params: {
         search,
