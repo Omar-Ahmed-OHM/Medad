@@ -55,15 +55,9 @@ export default function Azkar() {
 
         <button
           onClick={() => setOpen(!open)}
-          className="border border-green-900 shadow-[0_10px_30px_rgba(0,0,0,0.2)] w-10 h-10 sm:w-12 sm:h-12 rounded-full flex items-center justify-center overflow-hidden bg-white/35"
+          className="border border-green-900 shadow-[0_10px_30px_rgba(0,0,0,0.2)] w-14 h-14 p-6 sm:w-12 sm:h-12 rounded-full flex items-center justify-center overflow-hidden bg-white/35"
         >
-          <Image
-            src={medad_logo}
-            width={120}
-            height={40}
-            alt="medad logo"
-            className="w-8 h-8 sm:w-auto sm:h-auto"
-          />
+          اختار أذكارك 
         </button>
       </div>
 
