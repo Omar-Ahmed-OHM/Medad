@@ -197,7 +197,11 @@ export default function All_Hadith() {
                       </div>
                     )}
                   </div>
-
+                  {hadith.link&&(
+                    <p className="text-white bg-green-800 p-2 w-fit rounded-4xl">
+                      {hadith.link}
+                    </p>
+                  )}
                 </div>
               </div>
             ))
