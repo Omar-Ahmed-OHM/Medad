@@ -7,7 +7,7 @@ export default function Home() {
         <Card 
           title="الأَحَادِيث النَّبَوِيَّة" 
           description="اكْتَشِفْ مَجْمُوعَةً وَاسِعَةً مِنَ الأَحَادِيثِ النَّبَوِيَّةِ الشَّرِيفَةِ، مَعَ شَرْحٍ وَتَفْسِيرٍ لِكُلِّ حَدِيثٍ لِتَسْهِيلِ فَهْمِكَ وَاسْتِيعَابِكَ." 
-          route="/Hadith" 
+          route="/hadith" 
           src="/assets/hadith.png" 
           buttonText="عرض الاحاديث" 
         />
