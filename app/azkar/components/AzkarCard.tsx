@@ -41,7 +41,7 @@ const AzkarCard: React.FC<AzkarCardProps> = ({
         </div>
 
         <div className="px-1 sm:px-2 py-2 sm:py-3 flex items-center justify-center">
-          <p className="text-center text-lg sm:text-2xl font-semibold leading-[1.8] break-words">
+          <p className="text-center text-lg sm:text-2xl font-semibold leading-[1.8] break-words text-black">
             {text}
           </p>
         </div>
