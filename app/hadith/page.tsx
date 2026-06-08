@@ -147,16 +147,16 @@ export default function All_Hadith() {
             hadiths.map((hadith: Hadith) => (
               <div
                 key={hadith._id}
-                className="rounded-2xl sm:rounded-[2rem] border border-[#bca66a]/30 shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 overflow-hidden mx-1 sm:mx-0 p-6"
+                className="rounded-2xl sm:rounded-[2rem] border border-[#bca66a]/30 shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 overflow-hidden mx-1 sm:mx-0 "
                 style={{
                   backgroundImage: "url('/assets/Azkar.png')",
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                 }}
               >
-                <div className="p-4 sm:p-6 md:p-8">
+                <div className="p-4 sm:pt-10 md:p-8">
 
-                  <div className="flex flex-col sm:flex-row flex-wrap items-start sm:items-center justify-between gap-2 sm:gap-3 border-b pb-3 sm:pb-4">
+                  <div className="flex flex-col sm:flex-row flex-wrap items-start sm:items-center justify-between gap-2 sm:gap-3 border-b pb-3 sm:pb-4 pt-10">
                     <h2 className="text-lg sm:text-xl md:text-2xl font-black text-[#0b6b2e]">
                       {hadith.title}
                     </h2>
@@ -198,7 +198,7 @@ export default function All_Hadith() {
                     )}
                   </div>
                   {hadith.link&&(
-                    <p className="text-white bg-green-800 p-2 w-fit rounded-4xl">
+                    <p className="text-white bg-green-800 p-2 w-fit rounded-4xl mt-2">
                       {hadith.link}
                     </p>
                   )}
