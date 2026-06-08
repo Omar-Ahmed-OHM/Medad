@@ -147,7 +147,7 @@ export default function All_Hadith() {
             hadiths.map((hadith: Hadith) => (
               <div
                 key={hadith._id}
-                className="rounded-2xl sm:rounded-[2rem] border border-[#bca66a]/30 shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 overflow-hidden mx-1 sm:mx-0"
+                className="rounded-2xl sm:rounded-[2rem] border border-[#bca66a]/30 shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 overflow-hidden mx-1 sm:mx-0 p-6"
                 style={{
                   backgroundImage: "url('/assets/Azkar.png')",
                   backgroundSize: "cover",
