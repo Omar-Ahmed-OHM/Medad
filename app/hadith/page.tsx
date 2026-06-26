@@ -169,7 +169,7 @@ export default function All_Hadith() {
                   </div>
 
                   <div className="my-4 sm:my-6 bg-stone-50 text-black rounded-xl sm:rounded-2xl p-4 sm:p-6">
-                    <p className="text-base sm:text-xl leading-loose text-center font-bold">
+                    <p className="font-amiri text-xl sm:text-3xl leading-loose text-center font-bold">
                       {hadith.text}
                     </p>
                   </div>

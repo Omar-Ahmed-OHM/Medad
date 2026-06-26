@@ -29,7 +29,8 @@ export default function RootLayout({
   return (
     <html
       lang="ar"
-      className={`${cairo.variable} ${amiri.variable} h-full antialiased`}
+      dir="rtl"
+      className={`${cairo.variable} ${amiri.variable} font-sans h-full antialiased`}
     >
       <body
         className="min-h-full flex flex-col"
